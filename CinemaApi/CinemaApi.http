@@ -1,0 +1,12 @@
+@CinemaApi_HostAddress = http://localhost:5056
+
+GET {{CinemaApi_HostAddress}}/api/Cinemas
+Accept: application/json
+
+###
+GET {{CinemaApi_HostAddress}}/api/Screening
+Accept: application/json
+
+###
+GET {{CinemaApi_HostAddress}}/api/Reservation/screening/1
+Accept: application/json

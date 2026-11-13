@@ -1,0 +1,39 @@
+# Dependencies and generated output
+**/node_modules/
+**/dist/
+**/bin/
+**/obj/
+CinemaApi/wwwroot/
+**/.vite/
+**/.vite-temp/
+coverage/
+TestResults/
+release/
+
+# Local databases and credentials
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+.env
+.env.*
+!.env.example
+**/appsettings.Local.json
+**/appsettings.*.local.json
+*.pfx
+*.p12
+*.pem
+*.key
+*.log
+
+# IDE and operating system files
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+.DS_Store
+Thumbs.db
+
+# Archive copies
+*.zip
